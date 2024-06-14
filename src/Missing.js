@@ -1,8 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Missing() {
   return (
-    <div>Missing</div>
+    <main className='Missing'>
+      <h2>Page Not Found</h2>
+      <p>Well, that's dissapointing.</p>
+      <p>
+        <Link to='/'>Visit Our Homepage</Link>
+      </p>
+    </main>
   )
 }
 

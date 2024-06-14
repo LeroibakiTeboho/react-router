@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
-function Header() {
+const Header = ({ title }) => {
   return (
-    <div>Header</div>
+      <header className="Header">
+          <h1>{title}</h1>
+      </header>
   )
 }
 
